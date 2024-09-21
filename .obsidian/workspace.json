@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "b7169a9aabc6a254",
+    "type": "split",
+    "children": [
+      {
+        "id": "aff95a9daf766acf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "360309ab2d66e768",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa3e7040946129ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf52922f6b59c19e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b9bec0fbbb1aa84",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f38eca645a64628c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c8fe7ffcddc083e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1460c0782d9f66d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e51e94b3214b00e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e12a60bf57bd3fdd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "291a68a4520ef8ba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49f5d2810086bb5e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e1d13161bec3625f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "yet-another-obsidian-synchronizer:YAOS": false
+    }
+  },
+  "active": "360309ab2d66e768",
+  "lastOpenFiles": [
+    "Sincronizar Vaul.md",
+    "Arquitectura/Unidad 1/Hooks/1.- useState.md",
+    "Seguridad Informática/Unidad 1",
+    "Seguridad Informática",
+    "Arquitectura/Unidad 1/Hooks/4.- useCallback.md",
+    "Arquitectura/Unidad 1/Hooks/3.- useMemo.md",
+    "Arquitectura/Unidad 1/Hooks/2.- useReduce.md",
+    "Bienvenido.md",
+    "Arquitectura/Unidad 1/Hooks",
+    "Arquitectura/Unidad 1",
+    "Arquitectura"
+  ]
+}
