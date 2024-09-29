@@ -3,9 +3,11 @@ IDS - Sistemas de Detección de Intrusos
 IPS - Sistemas de Prevención de Intrusos
 EDR - Detección y Respuesta de Terminal
 XDR - Detección y Respuesta Extendida
+UTM - Unified Threat Management - Gestión Unificada de Amenazas
 SASE -
 DevOps -
-DRP -
+MYTM - Man In The Middle
+DRP - Disastery Recovery Plan
 SSO -
 ITIL - 
 ERP -
