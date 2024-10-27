@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "b7169a9aabc6a254",
+    "type": "split",
+    "children": [
+      {
+        "id": "03991ab5853ed93f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a95ff7b0c9e18ddb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Seguridad Informática/Unidad 1/Estudiar Examen/Preguntas Examen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa3e7040946129ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf52922f6b59c19e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b9bec0fbbb1aa84",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f38eca645a64628c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c8fe7ffcddc083e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1460c0782d9f66d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e51e94b3214b00e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e12a60bf57bd3fdd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Seguridad Informática/Unidad 1/Estudiar Examen/Preguntas Examen.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "291a68a4520ef8ba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Seguridad Informática/Unidad 1/Estudiar Examen/Preguntas Examen.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49f5d2810086bb5e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e1d13161bec3625f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Seguridad Informática/Unidad 1/Estudiar Examen/Preguntas Examen.md"
+              }
+            }
+          },
+          {
+            "id": "0ef51ea5cfcb4200",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "a95ff7b0c9e18ddb",
+  "lastOpenFiles": [
+    "Seguridad Informática/Unidad 1/Clases/2. Clase 2 - Seguridad informática.md",
+    "Seguridad Informática/Unidad 1/Clases/1. Clase 1 - Las 3 brechas de seguridad.md",
+    "Seguridad Informática/Unidad 1/Estudiar Examen/Preguntas Examen.md",
+    "Sin título.md",
+    "Seguridad Informática/Unidad 1/Clases/Preguntas de Examen.md",
+    "Seguridad Informática/Unidad 1/Clases/1.1 Clase 1 - Video.md",
+    "Metodologia/Unidad 1/3..md",
+    "Seguridad Informática/Unidad 1/Clases",
+    "Seguridad Informática/Unidad 1/Estudiar Examen",
+    "Seguridad Informática/Glosario.md",
+    "Metodologia/Unidad 1/2. Exposición - investigación.md",
+    "Metodologia/Unidad 1/1. Tipos de proyectos.md",
+    "Arquitectura/Unidad 1/Hooks/5.- useCallback.md",
+    "Arquitectura/Unidad 1/Hooks/4.- useMemo.md",
+    "Arquitectura/Unidad 1/Hooks/1.- Hooks.md",
+    "Metodologia/Unidad 1",
+    "Metodologia",
+    "Arquitectura/Unidad 1/Hooks/2.- useState.md",
+    "Arquitectura/Unidad 1/Hooks/3.- useReducer.md",
+    "Sincronizar Vaul.md",
+    "Seguridad Informática/Unidad 1",
+    "Seguridad Informática",
+    "Bienvenido.md",
+    "Arquitectura/Unidad 1/Hooks",
+    "Arquitectura/Unidad 1",
+    "Arquitectura"
+  ]
+}
