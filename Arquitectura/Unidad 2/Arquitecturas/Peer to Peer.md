@@ -28,6 +28,9 @@ El modelo Peer to Peer (P2P) es un enfoque de red en el que cada nodo (o "peer")
 Descentralizada
 
 ### Menciona una característica 1/3
+- En P2P, todos los nodos (dispositivos) son iguales. No hay un servidor central; cada nodo puede actuar como cliente y servidor a la vez.
+- Los nodos comparten directamente los recursos entre ellos sin intermediarios, lo que hace la red más resistente a fallos en un solo nodo.
+- Es más distribuida y escalable, ya que los recursos y las responsabilidades se distribuyen entre todos los pares.
 
 ### ¿Cuántas formas hay?
 2
@@ -37,3 +40,8 @@ Descentralizada
 - Hibrida Centralizada
 
 ### Menciona 1 de 5 objetivos
+- Distribución de tareas y recursos
+- Descentralización
+- Escalabilidad
+- Distribución de ancho de banda
+- Resistencia ante fallos
