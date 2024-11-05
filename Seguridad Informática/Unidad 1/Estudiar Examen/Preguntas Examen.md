@@ -42,7 +42,7 @@ La **==seguridad informática==** debe cumplir con ciertas ==**características 
 3. **Disponibilidad**: Garantiza que los datos estén siempre disponibles en todo momento, pero siempre bajo condiciones de seguridad y recuperabilidad ante un ciberataque.
 4. **Autenticidad**: Corroborar la identidad de un usuario o recurso, así que protegerá que dicha identidad no se falsifique.
 
-## ¿Cómo implementar los principios de seguridad informática?
+## ¿Cómo implementar los principios de seguridad informática? o ¿Qué hacen los especialistas?
 
 Aplicar técnicas de protección, detectar amenazas, crear planes de prevención y conocer toda la normativa legal.
 
@@ -53,7 +53,6 @@ CISO - Chief Information Security Officer
 CSO - Chief Security Officer
 
 Auditor de la seguridad informática de la empresa
-
 ## ¿Qué es Ciberseguridad?
 
 La ciberseguridad es una práctica de proteger redes informáticas, dispositivos, aplicaciones, sistemas y bases de datos contra amenazas y ataques.
