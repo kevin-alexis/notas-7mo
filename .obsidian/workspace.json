@@ -4,11 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "b9303901b2ea4753",
+        "id": "c6a09a3dc008570d",
         "type": "tabs",
         "children": [
           {
-            "id": "188852dde521837a",
+            "id": "3437d7960b010c78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitectura/Unidad 2/Clases o estructura.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clases o estructura"
+            }
+          },
+          {
+            "id": "ed37e119ad901a5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitectura/Unidad 2/Arquitecturas/Onion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Onion"
+            }
+          },
+          {
+            "id": "86e15beb763bf260",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitectura/Unidad 2/Arquitecturas/Hexagonal.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hexagonal"
+            }
+          },
+          {
+            "id": "05068aa21a54f9b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +61,6 @@
               },
               "icon": "lucide-file",
               "title": "Peer to Peer"
-            }
-          },
-          {
-            "id": "4232c97c4c0bca17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arquitectura/Unidad 2/Patrones de diseño/Abstract Factory.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Abstract Factory"
             }
           }
         ]
@@ -187,19 +215,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "188852dde521837a",
+  "active": "3437d7960b010c78",
   "lastOpenFiles": [
-    "Arquitectura/Unidad 2/Patrones de diseño/Singleton.md",
-    "Arquitectura/Unidad 2/Patrones de diseño/Factory Method.md",
-    "Arquitectura/Unidad 2/Patrones de diseño/Abstract Factory.md",
     "Arquitectura/Unidad 2/Arquitecturas/Onion.md",
+    "Arquitectura/Unidad 2/Clases o estructura.md",
     "Arquitectura/Unidad 2/Arquitecturas/Hexagonal.md",
-    "Arquitectura/Unidad 2/Arquitecturas/Cliente-Servidor.md",
     "Arquitectura/Unidad 2/Arquitecturas/Microservicios.md",
+    "Arquitectura/Unidad 2/Arquitecturas/Peer to Peer.md",
+    "Arquitectura/Unidad 2/Arquitecturas/Cliente-Servidor.md",
+    "Arquitectura/Unidad 2/Patrones de diseño/Builder.md",
+    "Arquitectura/Unidad 2/Patrones de diseño/Abstract Factory.md",
+    "Arquitectura/Unidad 2/Patrones de diseño/Factory Method.md",
+    "Arquitectura/Unidad 2/Patrones de diseño/Singleton.md",
     "Pasted image 20241105114407.png",
     "Pasted image 20241105114414.png",
-    "Arquitectura/Unidad 2/Arquitecturas/Peer to Peer.md",
-    "Arquitectura/Unidad 2/Patrones de diseño/Builder.md",
     "Metodologia/Unidad 1/1. Introducción.md",
     "Metodologia/Unidad 1/2. Exposición - investigación.md",
     "Seguridad Informática/Unidad 2/Clases/1.0 Clase 1 - Video 1.md",

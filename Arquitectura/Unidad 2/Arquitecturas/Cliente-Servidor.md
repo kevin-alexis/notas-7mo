@@ -6,7 +6,7 @@
 El modelo cliente-servidor es un paradigma de arquitectura de red en el que las tareas y responsabilidades se dividen entre los proveedores de recursos o servicios, llamados servidores, y los solicitantes de esos recursos, conocidos como clientes. En este modelo, los clientes envían solicitudes al servidor, que las procesa y devuelve los resultados. Este enfoque permite una gestión eficiente de recursos, escalabilidad y facilidad de mantenimiento.
 
 ## Esquema
-- - **Cliente**: Es el dispositivo o aplicación que realiza solicitudes de servicios o recursos. Los clientes pueden ser navegadores web, aplicaciones móviles, programas de correo electrónico, etc.
+- **Cliente**: Es el dispositivo o aplicación que realiza solicitudes de servicios o recursos. Los clientes pueden ser navegadores web, aplicaciones móviles, programas de correo electrónico, etc.
 - **Servidor**: Es el sistema que recibe las solicitudes del cliente, procesa esos pedidos y envía las respuestas correspondientes. Los servidores pueden ser servidores web, servidores de bases de datos, servidores de archivos, etc.
 - **Protocolos de comunicación**: Son las reglas que definen cómo se transmiten los datos entre el cliente y el servidor. Algunos ejemplos son:
     - **HTTP** (Hypertext Transfer Protocol): Utilizado para la transferencia de páginas web.
