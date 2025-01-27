@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f55dd15a250ebd8e",
+        "id": "ecfc545492eb4840",
         "type": "tabs",
         "children": [
           {
-            "id": "d029761700a74a8b",
+            "id": "5cf328f815574c09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7mo/Arquitectura/Unidad 1/2. Hooks/5.- useCallback.md",
+                "file": "8vo/Seguridad Web/Unidad 1/Clase 1 - Vue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.- useCallback"
+              "title": "Clase 1 - Vue"
+            }
+          },
+          {
+            "id": "cad952a077d9d9a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8vo/Seguridad Web/Unidad 1/AWS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AWS"
             }
           }
         ]
@@ -77,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3cb2f463891474d8",
@@ -146,9 +161,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "8vo/Seguridad Web/Unidad 1/Clase 1 - Vue.md"
+              },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Clase 1 - Vue"
             }
           }
         ]
@@ -168,13 +185,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "576a79421a028450",
+  "active": "5cf328f815574c09",
   "lastOpenFiles": [
+    "Sin título.md",
+    "8vo/Seguridad Web/Unidad 1/Clase 1 - Vue.md",
+    "8vo/Seguridad Web/Unidad 1/Sin título.md",
+    "8vo/Seguridad Web/Sin título.md",
+    "8vo/Seguridad Web/Unidad 1/AWS.md",
+    "7mo/Arquitectura/Unidad 1/2. Hooks/5.- useCallback.md",
     "7mo/Arquitectura/Unidad 2/Pasted image 20241105094219.png",
     "7mo/Arquitectura/Unidad 2/Pasted image 20241105092819.png",
     "7mo/Arquitectura/Unidad 2/Pasted image 20241016220050.png",
     "7mo/Arquitectura/Unidad 1/Hooks/5.- useCallback.md",
-    "7mo/Arquitectura/Unidad 1/2. Hooks/5.- useCallback.md",
     "7mo/Arquitectura/Unidad 1/Hooks/4.- useMemo.md",
     "7mo/Arquitectura/Unidad 1/2. Hooks/4.- useMemo.md",
     "7mo/Arquitectura/Unidad 1/2. Hooks/3.- useReducer.md",
@@ -184,7 +206,6 @@
     "7mo/Arquitectura/Unidad 1/2. Hooks/1.- Hooks.md",
     "7mo/Arquitectura/Unidad 1/Hooks/1.- Hooks.md",
     "7mo/Arquitectura/Unidad 2/Pasted image 20241105105320.png",
-    "8vo/Seguridad Web/Unidad 1/Clase 1 - Vue.md",
     "conflict-files-obsidian-git.md",
     "7mo/Arquitectura/Unidad 2/Pasted image 20241105111047.png",
     "7mo/Arquitectura/Unidad 2/Pasted image 20241105110539.png",
@@ -207,11 +228,8 @@
     "7mo/Seguridad Informática",
     "7mo/Metodologia/Unidad 1/3..md",
     "7mo/Metodologia/Unidad 1/2. Exposición - investigación.md",
-    "7mo/Metodologia/Unidad 1/1. Introducción.md",
-    "7mo/Metodologia/Unidad 1/1. Tipos de proyectos.md",
     "7mo/Metodologia/Unidad 1",
     "7mo/Metodologia",
-    "7mo/Seguridad Informática/Unidad 2/Clases/2 - Clase 2.md",
     "7mo/Arquitectura/Unidad 2/Pasted image 20241105114414.png",
     "7mo/Arquitectura/Unidad 2/Pasted image 20241105111057.png",
     "7mo/Arquitectura/Unidad 2/Pasted image 20241105111032.png"

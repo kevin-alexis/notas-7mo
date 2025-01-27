@@ -1,1 +1,8 @@
-{}
+{
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "vimMode": false,
+  "newFileLocation": "folder",
+  "showUnsupportedFiles": false,
+  "readableLineLength": true
+}
