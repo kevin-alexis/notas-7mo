@@ -370,22 +370,23 @@ Configurar los encabezados HTTP puede prevenir ataques comunes.
 - **OWASP ZAP (análisis dinámico):** una de las herramientas más completas para realizar **análisis dinámicos** de seguridad (DAST). Permite hacer pruebas automáticas de vulnerabilidades como **inyección SQL**, **XSS** y **CSRF**, entre otras.
 - **Snvk (revisión de dependencias):** herramienta que ayuda a revisar las **dependencias de proyectos** para detectar vulnerabilidades conocidas. Es crucial mantener actualizadas las dependencias y asegurarse de que no estén utilizando versiones vulnerables de librerías.
 
-
-El **análisis estático** implica revisar el **código fuente** o los **archivos del proyecto** sin ejecutarlo. En este enfoque, el análisis se realiza antes de que el software sea compilado o ejecutado, por lo que se enfoca en el código y la estructura del mismo.
-
 ## **1. Análisis Estático (Static Analysis)**
 
 ### **¿Qué es?**
+
+El **análisis estático** implica revisar el **código fuente** o los **archivos del proyecto** sin ejecutarlo. En este enfoque, el análisis se realiza antes de que el software sea compilado o ejecutado, por lo que se enfoca en el código y la estructura del mismo.
 ### **¿Qué busca?**
 
 - Detecta **vulnerabilidades de codificación**, como malas prácticas o patrones inseguros, antes de que el código se ejecute.
 - Identifica posibles **errores de seguridad** en el código que podrían dar lugar a problemas más tarde.
 - Es útil para revisar código de manera temprana durante el proceso de desarrollo.
 
-El **análisis dinámico** implica ejecutar el software en un entorno controlado (como un servidor o máquina de prueba) para observar cómo se comporta mientras está en funcionamiento. Este tipo de análisis se realiza **mientras el software está en ejecución**.
+
 ## **2. Análisis Dinámico (Dynamic Analysis)**
 
 ### **¿Qué es?**
+
+El **análisis dinámico** implica ejecutar el software en un entorno controlado (como un servidor o máquina de prueba) para observar cómo se comporta mientras está en funcionamiento. Este tipo de análisis se realiza **mientras el software está en ejecución**.
 ### **¿Qué busca?**
 
 - Detecta **vulnerabilidades que solo aparecen durante la ejecución**, como **inyecciones SQL**, **Cross-Site Scripting (XSS)**, **Cross-Site Request Forgery (CSRF)**, entre otras.
