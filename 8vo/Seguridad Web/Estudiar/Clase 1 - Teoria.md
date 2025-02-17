@@ -365,12 +365,12 @@ Configurar los encabezados HTTP puede prevenir ataques comunes.
 
 # Pruebas de seguridad durante el desarollo
 
-**Automatización con herramientas:**
+## Automatización con herramientas:
 - **ESLint Plugin Security (análisis estático):** herramienta popular para análisis estático de código. Puedes integrar el plugin **eslint-plugin-security** para identificar vulnerabilidades comunes como inyecciones de código y prácticas inseguras en JavaScript.
 - **OWASP ZAP (análisis dinámico):** una de las herramientas más completas para realizar **análisis dinámicos** de seguridad (DAST). Permite hacer pruebas automáticas de vulnerabilidades como **inyección SQL**, **XSS** y **CSRF**, entre otras.
 - **Snvk (revisión de dependencias):** herramienta que ayuda a revisar las **dependencias de proyectos** para detectar vulnerabilidades conocidas. Es crucial mantener actualizadas las dependencias y asegurarse de que no estén utilizando versiones vulnerables de librerías.
 
-## **1. Análisis Estático (Static Analysis)**
+### 1. Análisis Estático (Static Analysis)
 
 ### **¿Qué es?**
 
@@ -382,7 +382,7 @@ El **análisis estático** implica revisar el **código fuente** o los **archivo
 - Es útil para revisar código de manera temprana durante el proceso de desarrollo.
 
 
-## **2. Análisis Dinámico (Dynamic Analysis)**
+### 1. Análisis Dinámico (Dynamic Analysis)
 
 ### **¿Qué es?**
 
@@ -393,5 +393,5 @@ El **análisis dinámico** implica ejecutar el software en un entorno controlado
 - Puede identificar **errores de configuración**, problemas con la **autenticación** o **sesiones inseguras** que solo son evidentes cuando el software está interactuando con el entorno o el usuario.
 - Es útil para probar las interacciones del software con otros sistemas y servicios.
 
-**Pruebas unitarias:**
+## Pruebas unitarias:
 - Asegúrate de probar validaciones de seguridad.

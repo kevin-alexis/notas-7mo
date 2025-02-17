@@ -18,11 +18,6 @@ Su función es mejorar la experiencia del usuario al permitir que las páginas 
 
 # Diferencias entre Pagina Web, landing page y un sitio que integra más funcionalidades
 
-| Pagina Web | Landing Page | Sitio Web |
-| ---------- | ------------ | --------- |
-|            |              |           |
-|            |              |           |
-
 **Sitio web** 
 - Su función es generar confianza en la empresa.
 - El contenido es el mismo para todos los visitantes.
@@ -90,7 +85,7 @@ const greeting = ref('Hello World!')
 ### ¿Qué es un manejador de estados?
 Las aplicaciones tienen un estado, este estado es la representación de la información y las modificaciones hechas a la misma, mientras la app se ejecuta. En general, el tema de manejar un estado para nuestra aplicación, está estrechamente relacionado con aplicaciones interactivas, donde precisamente la interacción del usuario modifica el estado de nuestra aplicación.
 
-Consideremos por ejemplo, el reproducto de vídeos de CódigoFacilito. Inicialmente, su estado es "detenido", cuando das clic en el botón Play, su estado pasa a "reproduciendo".
+Consideremos por ejemplo, el reproductor de vídeos de CódigoFacilito. Inicialmente, su estado es "detenido", cuando das clic en el botón Play, su estado pasa a "reproduciendo".
 
 Lo interesante del manejo del estado de una aplicación, es que por lo general, la modificación de una parte del estado, desencadena otras modificaciones. Si volvemos a considerar el ejemplo, podemos notar que si el estado del reproductor pasa a "reproduciendo", aparece un modal oscuro alrededor del reproductor que podríamos decir paso del estado "oculto" al estado "mostrar", por su parte se modifican otros valores como el contador del tiempo reproducido, la barra de progreso del vídeo, etc.
 
@@ -161,16 +156,15 @@ Hay dos formas de crear una app de VUE, desde CLI y desde CDN
 npm create vue@latest
 ```
 
-Maneja un DOM virtual
-scaffold
-Scaffolding
+**Maneja un DOM virtual:** El **DOM (Document Object Model)** real es la representación de la estructura de un documento HTML en el navegador.
+**Scaffolding:** es un término utilizado en el desarrollo de aplicaciones que se refiere a la creación automática de una estructura básica o inicial de un proyecto o componente. Es como un "andamiaje"
 
 Para que sirve cada opción:
 ```shell
 
 ✔ Project name: … <your-project-name> # nombre del proyecto
 ✔ Add TypeScript? … No / Yes # agregar TypeScript al proyecto
-✔ Add JSX Support? … No / Yes # 
+	✔ Add JSX Support? … No / Yes # una extensión de la sintaxis de JavaScript que permite escribir código HTML dentro de JavaScript
 ✔ Add Vue Router for Single Page Application development? … No / Yes #
 ✔ Add Pinia for state management? … No / Yes # manejador de estados
 ✔ Add Vitest for Unit testing? … No / Yes #
@@ -260,8 +254,10 @@ Una red de entrega de contenido es una red de servidores que distribuyen conteni
 
 # Empaquetador de código:
 
-- webpack
-- vIte
+Cuando hablamos de **empaquetadores de código** como **Webpack** y **Vite**, nos referimos a herramientas que permiten agrupar (empaquetar) todos los archivos y recursos de un proyecto (JavaScript, CSS, imágenes, etc.) en un único archivo (o varios) para su distribución en producción. Ambas herramientas tienen el objetivo de optimizar el proceso de construcción de proyectos web, pero tienen diferencias notables en cómo funcionan y cómo se utilizan.
+
+- **webpack:** es uno de los empaquetadores más populares y flexibles para aplicaciones web modernas. Se utiliza para agrupar módulos de JavaScript, CSS, imágenes, y otros archivos en un conjunto optimizado que se puede ejecutar en el navegador.
+- **Vite:** es un empaquetador moderno y de alto rendimiento creado por el mismo autor de Vue.js. Está diseñado para ser más rápido y sencillo que Webpack, aprovechando tecnologías más recientes como **ES Modules** y el servidor de desarrollo basado en **esbuild**.
 
 # Estructura de vue
 ### Carpetas:
@@ -284,8 +280,9 @@ Una red de entrega de contenido es una red de servidores que distribuyen conteni
 ```
 
 ### Etiquetas:
-routerview: historia de rutas, ... permite saber la estructura del sitio o el mapa del sitio. Asi como angular cuando creas la carpeta de rutas en las carpetas con los componentes
-routerLink: 
+Cuando un usuario navega por una ruta en la aplicación, Vue Router renderiza el componente asociado a esa ruta dentro del `<router-view>`. Este componente actúa como el lugar donde se inserta el contenido dinámico, basado en la ruta actual.
+
+`router-link` es un componente de Vue que actúa como un **enlace** para navegar entre rutas. Es un reemplazo de los elementos `<a>` tradicionales, pero con el propósito de realizar **navegación interna** sin recargar la página (lo que hace que sea más rápido y fluido, propio de las SPAs).
 
 # ¿Por qué no guardar imagenes en public?
 
@@ -299,9 +296,9 @@ Los buckets son un **contenedor de objetos**, es decir, un espacio de almacenam
     Al almacenar archivos directamente en una carpeta pública, existe el riesgo de que un atacante acceda a archivos sensibles, ya que el acceso a esa carpeta es directo desde el navegador.
     
 - **Dificultad en Mantenimiento**:
-    
     - Si necesitas hacer un backup o mover los archivos a otro servidor, el proceso puede ser complicado.
     - Es más difícil controlar y administrar versiones o eliminar archivos no usados.
+    
 - **Problemas en Aplicaciones Distribuidas**:  
     En una arquitectura distribuida con varios servidores (o instancias), no todos comparten la misma carpeta `public`. Esto puede generar inconsistencias si un servidor tiene ciertos archivos y otro no.
 
@@ -317,9 +314,9 @@ Los buckets son un **contenedor de objetos**, es decir, un espacio de almacenam
     Puedes configurar permisos granulares (por ejemplo, que ciertos archivos solo sean accesibles a usuarios autenticados) y aplicar medidas como cifrado.
     
 4. **Integración y Automatización**:
-    
     - Puedes automatizar la carga y eliminación de archivos.
     - Puedes manejar versiones o archivos temporales de manera más eficiente.
+    
 5. **Independencia del Servidor**:  
     Los archivos no están atados a tu aplicación ni a tu infraestructura. Esto significa que puedes hacer despliegues o migrar servidores sin preocuparte por mover grandes cantidades de datos.
 

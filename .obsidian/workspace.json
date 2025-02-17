@@ -13,6 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "8vo/Seguridad Web/Estudiar/Clase 3 - Creando con VueJS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 3 - Creando con VueJS"
+            }
+          },
+          {
+            "id": "bd1b85ff33e2a66d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8vo/Seguridad Web/Estudiar/Notas de la actividad 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notas de la actividad 1"
+            }
+          },
+          {
+            "id": "675c4af1c3029474",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "8vo/Seguridad Web/Estudiar/Clase 1 - Teoria.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +49,8 @@
               "title": "Clase 1 - Teoria"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3cb2f463891474d8",
@@ -172,16 +200,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eea697d595be5986",
+  "active": "bd1b85ff33e2a66d",
   "lastOpenFiles": [
-    "8vo/Seguridad Web/Estudiar/Notas de la actividad 1.md",
-    "Sin título.md",
-    "8vo/Seguridad Web/Estudiar/Clase 1 - Teoria.md",
     "8vo/Seguridad Web/Estudiar/Guía de Estudio - Complemento.md",
     "8vo/Seguridad Web/Estudiar/Estudiar.md",
     "8vo/Seguridad Web/Estudiar/Clase 4.md",
+    "8vo/Seguridad Web/Estudiar/Notas de la actividad 1.md",
     "8vo/Seguridad Web/Estudiar/Clase 3 - Creando con VueJS.md",
+    "8vo/Seguridad Web/Estudiar/Clase 1 - Teoria.md",
     "8vo/Seguridad Web/Estudiar/Clase 2 - Vue.md",
+    "Sin título.md",
     "Sin título 3.md",
     "8vo/Seguridad Web/Unidad 1/Estudiar.md",
     "Sin título 2.md",

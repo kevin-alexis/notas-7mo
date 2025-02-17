@@ -8,9 +8,6 @@ stores: para manejar el estado global de la aplicación
 utils: pequeños scripts para la lógica, se podria decir que algo como composable
 
 
-
-
-
 Los parametros de una url: para definir cierta información y podamos compartirla.
 
 ----
@@ -43,5 +40,15 @@ eventos: al detectar un evento realice una accion (como un boton on click)
 vue y los componentes no pueden comunicarse de forma horizontal.
 
 con emits y providers se puede comunicar de diferente niveles padre e hijo
+- **`emit`**:
+    - Es útil para la **comunicación de hijo a padre**.
+    - Funciona mediante eventos.
+    - El padre escucha el evento y maneja los datos o acciones.
+    
+- **`provide/inject`**:
+    - Se usa para compartir datos entre **componentes no directamente relacionados**.
+    - Ideal para compartir datos entre varios niveles de la jerarquía de componentes.
+    - El componente proveedor (`provide`) pone a disposición los datos, y el componente receptor (`inject`) los recibe.
+
 
 el store permite compartir datos donde la información va hacia cada componente

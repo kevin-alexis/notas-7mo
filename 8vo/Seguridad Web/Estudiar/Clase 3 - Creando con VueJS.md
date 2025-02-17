@@ -80,10 +80,23 @@ En este se manda a llamar el que queramos en el momento en que queramos
 - OnMounted()
 - onErrorCaptured()
 - onDeactivated()
-- BeforeCreated
 - onBeforeUpdated()
 - onActivated()
 - onServerPrefetch
+
+| **Hook**         | **Cuándo se ejecuta**                                              | **¿Para qué se usa?**                                         |
+| ---------------- | ------------------------------------------------------------------ | ------------------------------------------------------------- |
+| beforeCreate     | Antes de que el componente sea creado.                             | Configurar opciones antes de que los datos estén disponibles. |
+| onBeforeMount    | Antes de que el componente sea montado en el DOM.                  | Ajustes previos a la visualización.                           |
+| onUpdated        | Después de que el componente haya sido actualizado.                | Realizar acciones después de cambios en los datos.            |
+| onUnmounted      | Cuando el componente es desmontado.                                | Limpiar recursos como listeners o timers.                     |
+| onMounted        | Después de que el componente ha sido montado en el DOM.            | Inicializar recursos dependientes del DOM.                    |
+| onErrorCaptured  | Cuando ocurre un error en el componente o sus hijos.               | Capturar errores globalmente.                                 |
+| onDeactivated    | Cuando el componente es desactivado (en <keep-alive>).             | Gestionar recursos cuando el componente es desactivado.       |
+| onBeforeUpdated  | Justo antes de que el componente se actualice.                     | Realizar acciones antes de la actualización.                  |
+| onActivated      | Cuando un componente previamente desactivado es activado de nuevo. | Inicializar recursos al volver a activar el componente.       |
+| onServerPrefetch | Solo en renderizado en el servidor, antes de la renderización.     | Cargar datos antes de la renderización en el servidor.        |
+
 
 | Estructura |
 | ---------- |
