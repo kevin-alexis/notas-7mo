@@ -1,0 +1,1 @@
+Al colocarla en el dron y encenderlo, se activan unas luces rojas en el dron, y la aplicación muestra los mensajes: 'Batería Dañada' y 'Error en la célula de la batería'.

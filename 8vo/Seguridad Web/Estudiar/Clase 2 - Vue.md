@@ -38,6 +38,7 @@ Su función es mejorar la experiencia del usuario al permitir que las páginas 
 - El contenido HTML, CSS y JavaScript se cargan por completo al abrir la web. 
 - Al pasar de una sección a otra, solo se carga el contenido nuevo de forma dinámica.
 
+# API (Application Program Interface)
 
 # Librería vs Framework
 
@@ -121,7 +122,7 @@ export default {
 }
 ```
 
-### Composition API 
+### Composition API (El más nuevo)
 
 Por otro lado, la **Composition API**, en lugar de separar la información en opciones, utiliza un método especial (_hook_) llamado `setup()` donde podremos escribir nuestro código Javascript de inicialización del componente. Dicho hook devolverá un `object` con los elementos que queramos utilizar en el resto del componente (_como por ejemplo, en el `<template>`_).
 
@@ -142,7 +143,6 @@ export default {
 }
 
 ```
-
 
 ## Vue Router: Manejo de Rutas y Redirección
 
